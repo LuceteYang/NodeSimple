@@ -1,0 +1,17 @@
+{
+  "db_config": {
+    "user": "user",
+    "database": "database",
+    "password": "password",
+    "host": "host",
+    "port":1111,
+    "max": 10,
+    "idleTimeoutMillis": 3000
+  },
+  "aws_config_wenwo": {
+    "region": "region",
+    "accessKeyId": "accessKeyId",
+    "secretAccessKey": "secretAccessKey",
+    "bucketName": "bucketName"
+  }
+}
