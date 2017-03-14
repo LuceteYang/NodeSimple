@@ -6,21 +6,21 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-    app.get('/get', function (req, res) {
+router.get('/get', function (req, res) {
         console.log(req.query.postId);
         res.json({"https": "success"})
     });
 
-    app.post('/post', function (req, res) {
+router.post('/post', function (req, res) {
         console.log(req.body.postId);
         res.json({"https": "success"})
     });
 
-    app.get('/header', function (req, res) {
+router.get('/header', function (req, res) {
     	res.json({"https": "success"})
     });
 
-    app.post('/form', function (req, res) {
+router.post('/form', function (req, res) {
     	res.json({"https": "success"})
     });
 
